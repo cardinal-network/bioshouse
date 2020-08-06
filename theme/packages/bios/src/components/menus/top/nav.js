@@ -27,14 +27,14 @@ const Nav = ({ state }) => (
 export default connect(Nav);
 
 const NavContainer = styled.nav`
-  list-style: none;
-  display: flex;
-  width: 848px;
+  width: 90%;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 0 24px;
-  margin: 0;
-  overflow-x: auto;
+  padding: 24px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   @media screen and (max-width: 560px) {
     display: none;
