@@ -1,5 +1,6 @@
 import React from "react";
 import { connect, styled } from "frontity";
+import { H1, H2 } from "./text/titles";
 import Link from "./link";
 import Nav from "./nav";
 import MobileMenu from "./menu";
@@ -9,9 +10,9 @@ const Header = ({ state }) => {
     <>
       <Container>
         <StyledLink link="/">
-          <Title>{state.frontity.title}</Title>
+          <H1>{state.frontity.title}</H1>
         </StyledLink>
-        <Description>{state.frontity.description}</Description>
+        <H2>{state.frontity.description}</H2>
         <MobileMenu />
       </Container>
       <Nav />
@@ -31,16 +32,6 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-`;
-
-const Title = styled.h2`
-  margin: 0;
-  margin-bottom: 16px;
-`;
-
-const Description = styled.h4`
-  margin: 0;
-  color: rgba(255, 255, 255, 0.7);
 `;
 
 const StyledLink = styled(Link)`
