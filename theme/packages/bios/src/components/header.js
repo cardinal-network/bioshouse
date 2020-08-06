@@ -2,8 +2,8 @@ import React from "react";
 import { connect, styled } from "frontity";
 import { H1, H2 } from "./text/titles";
 import Link from "./link";
-import Nav from "./nav";
-import MobileMenu from "./menu";
+import Nav from "./menus/top/nav";
+import MobileMenu from "./menus/top/menu";
 
 const Header = ({ state }) => {
   return (
