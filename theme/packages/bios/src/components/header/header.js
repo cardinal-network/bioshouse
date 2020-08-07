@@ -1,7 +1,7 @@
 import React from "react";
 import { connect, styled } from "frontity";
 import { H1, H2 } from "../text/titles";
-import Link from "./link";
+import Link from "../../services/link";
 import Nav from "../menus/top/nav";
 import MobileMenu from "../menus/top/menu";
 
