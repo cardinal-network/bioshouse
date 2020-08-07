@@ -6,7 +6,7 @@ import List from "../pages/list/list";
 import Post from "../pages/posts/post";
 import Loading from "../services/loading";
 import Title from "../services/title";
-import PageError from "./page-error";
+import PageError from "../pages/error/page-error";
 
 /**
  * Theme is the root React component of our theme. The one we will export
