@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { connect, styled } from "frontity";
-import Link from "../link";
+import Link from "../../services/link";
 
 /**
  * Pagination Component
