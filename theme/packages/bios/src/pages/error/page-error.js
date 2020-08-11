@@ -52,6 +52,6 @@ const Title = styled.h1`
 
 const Description = styled.div`
   line-height: 1.6em;
-  color: rgba(12, 17, 43, 0.8);
+  color: #fff;
   margin: 24px 0;
 `;

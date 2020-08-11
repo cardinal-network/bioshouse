@@ -47,5 +47,5 @@ const Container = styled.section`
 const Header = styled.h3`
   font-weight: 300;
   text-transform: capitalize;
-  color: rgba(12, 17, 43, 0.9);
+  color: #fff;
 `;

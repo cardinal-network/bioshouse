@@ -35,10 +35,4 @@ const Container = styled.div`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
-
-  img {
-    width: 50%;
-    object-fit: cover;
-    object-position: center;
-  }
 `;

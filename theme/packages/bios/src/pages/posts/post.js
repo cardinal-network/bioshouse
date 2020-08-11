@@ -77,7 +77,7 @@ const Title = styled.h1`
   margin: 0;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: rgba(12, 17, 43);
+  color: #fff;
 `;
 
 const StyledLink = styled(Link)`
@@ -85,13 +85,13 @@ const StyledLink = styled(Link)`
 `;
 
 const Author = styled.p`
-  color: rgba(12, 17, 43, 0.9);
+  color: #fff;
   font-size: 0.9em;
   display: inline;
 `;
 
 const DateWrapper = styled.p`
-  color: rgba(12, 17, 43, 0.9);
+  color: #fff;
   font-size: 0.9em;
   display: inline;
 `;
@@ -101,7 +101,7 @@ const DateWrapper = styled.p`
  * selectors to style that HTML.
  */
 const Content = styled.div`
-  color: rgba(12, 17, 43, 0.8);
+  color: #fff;
   word-break: break-word;
 
   * {
@@ -141,7 +141,7 @@ const Content = styled.div`
   }
 
   a {
-    color: rgb(31, 56, 197);
+    color: #fff;
     text-decoration: underline;
   }
 
