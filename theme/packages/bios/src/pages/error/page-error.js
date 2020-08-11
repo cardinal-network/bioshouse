@@ -36,7 +36,7 @@ const Page404 = ({ state }) => {
 export default connect(Page404);
 
 const Container = styled.div`
-  width: 800px;
+  width: 90%;
   margin: 0;
   padding: 24px;
   text-align: center;
