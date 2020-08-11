@@ -4,14 +4,21 @@ import { H1, H2 } from "../text/titles";
 import Link from "../../services/link";
 import Nav from "../menus/top/nav";
 import MobileMenu from "../menus/top/menu";
-import logo from "../../assets/imgs/logo.svg"; // with import
+import logo from "../../assets/imgs/"; // with import
 
 const Header = ({ state }) => {
   return (
     <>
       <Container>
         <StyledLink link="/">
-          <img src={logo} alt="Bios House logo" title="Bios House logo"></img>
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+            width="938.000000pt" height="135.000000pt" viewBox="0 0 938.000000 135.000000"
+            preserveAspectRatio="xMidYMid meet">
+
+            <g transform="translate(0.000000,135.000000) scale(0.100000,-0.100000)"
+              fill="#000000" stroke="none">
+            </g>
+          </svg>
         </StyledLink>
         <MobileMenu />
       </Container>
