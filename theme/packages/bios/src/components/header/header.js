@@ -4,7 +4,7 @@ import { H1, H2 } from "../text/titles";
 import Link from "../../services/link";
 import Nav from "../menus/top/nav";
 import MobileMenu from "../menus/top/menu";
-import logo from "../../assets/imgs/logo.png"; // with import
+import logo from "../../assets/imgs/logo.svg"; // with import
 
 const Header = ({ state }) => {
   return (
