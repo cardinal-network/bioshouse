@@ -57,7 +57,7 @@ export default connect(Item);
 
 const Title = styled.h1`
   font-size: 2rem;
-  color: rgba(12, 17, 43);
+  color: #fff;
   margin: 0;
   padding-top: 24px;
   padding-bottom: 8px;
@@ -65,7 +65,7 @@ const Title = styled.h1`
 `;
 
 const AuthorName = styled.span`
-  color: rgba(12, 17, 43, 0.9);
+  color: #fff;
   font-size: 0.9em;
 `;
 
@@ -74,11 +74,11 @@ const StyledLink = styled(Link)`
 `;
 
 const PublishDate = styled.span`
-  color: rgba(12, 17, 43, 0.9);
+  color: #fff;
   font-size: 0.9em;
 `;
 
 const Excerpt = styled.div`
   line-height: 1.6em;
-  color: rgba(12, 17, 43, 0.8);
+  color: #fff;
 `;
