@@ -11,7 +11,7 @@ const Header = ({ state }) => {
     <>
       <Container>
         <StyledLink link="/">
-          <img src={logo} alt="Bios House logo" title="Bios House logo"></img>
+          <img src={logo} alt="Bios House - The Universe at it's finest" title="Bios House - The Universe at it's finest"></img>
         </StyledLink>
         <MobileMenu />
       </Container>
@@ -27,7 +27,7 @@ const Container = styled.div`
   width: 90%;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 24px;
+  padding: 24px 0;
   color: #fff;
   display: flex;
   flex-direction: column;

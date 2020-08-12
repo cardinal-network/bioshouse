@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "Bios House - The Universe at it's finest",
+      "description": "Bios House - The Universe at it's finest"
     }
   },
   "packages": [
